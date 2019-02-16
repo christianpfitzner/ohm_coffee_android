@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cornsilk"
+    android:fitsSystemWindows="false"
+    tools:context=".Wait">
+
+    <TextView
+        android:id="@+id/tvWait"
+        android:layout_width="264dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/your_coffee_is_coming"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/Sandbrown"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnFinish"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="452dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/coffee"
+        android:onClick="onClick"
+        android:text="@string/finish"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWait"
+        app:srcCompat="@drawable/coffee_own" />
+
+</android.support.constraint.ConstraintLayout>

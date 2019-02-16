@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/cornsilk"
+    android:fitsSystemWindows="false"
+    tools:context=".Information">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cornsilk"
+        android:theme="@style/AlertDialog.AppCompat">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/ocean"
+                android:onClick="onClick"
+                android:text="Information"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/ocean"
+                android:onClick="onClick"
+                android:text="Order"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rootlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="This project was developed at the TH Nurmberg as a part of porject work"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="16sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="Team Leader:  Christian Pfitzner"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="24sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="Navigation: Zimmermann Lukas"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="Mapping: Eberth Simon"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="Localization: Bretting Daniel"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:text="Android App: Mößner Angelika"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Theme"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>

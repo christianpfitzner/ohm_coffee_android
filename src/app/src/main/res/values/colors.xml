@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f0e518</color>
+    <color name="colorPrimaryDark">#fca4a26e</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="background">#4ac8bc</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="chocolate">#d26924</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="Sandbrown">#dbb287</color>
+    <color name="coffee">#cb6219</color>
+    <color name="ocean">#c1e4eb</color>
+    <color name="green">#1cca09</color>
+</resources>

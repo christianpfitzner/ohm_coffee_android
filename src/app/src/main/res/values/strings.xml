@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ohm_coffee</string>
+    <string name="if_you_want_a_coffee_press_the_button">If you want a coffee press the button</string>
+    <string name="coffee">Coffee</string>
+    <string name="your_coffee_is_coming">Your coffee is coming</string>
+    <string name="finish">Finish</string>
+    <string name="mac">macAddress</string>
+    <string name="tab_label1">Order</string>
+    <string name="tab_label2">Calender</string>
+    <string name="tab_label3">Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
